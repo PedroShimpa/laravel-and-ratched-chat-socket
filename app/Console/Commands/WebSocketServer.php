@@ -47,7 +47,7 @@ class WebSocketServer extends Command
                     new WebSocketController()
                 )
             ),
-            env('SOCKET_PORT', 8888)
+            env('WEBSOCKET_PORT', 8888)
         );
         $server->run();
     }
